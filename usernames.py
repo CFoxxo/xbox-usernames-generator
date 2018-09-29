@@ -6,6 +6,3 @@ def randomUsername():
 	lines = open('nouns.txt').read().splitlines()
 	noun = random.choice(lines).capitalize()
 	return adj + noun + str(random.randint(10,99))
-
-for i in range(69):
-	print(randomUsername())
